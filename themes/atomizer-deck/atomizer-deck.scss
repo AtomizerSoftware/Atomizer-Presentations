@@ -58,7 +58,6 @@ $em: $font-size / 1em;	// Shorthand for outputting ems
   right: 0;
   //opacity: .25;
 
-
   .slide {
     //background:#fff;
 
@@ -81,11 +80,11 @@ $em: $font-size / 1em;	// Shorthand for outputting ems
     h2 {
       color:$sky-blue;
       border-bottom-color:$dark_grey;
-      font-size: $font-size * 3;
+      font-size: $font-size * 5;
     }
 
     h3 {
-      font-size:$font-size * 2.25 ;
+      font-size:$font-size * 3 ;
       color:#888;
     }
 
@@ -98,14 +97,13 @@ $em: $font-size / 1em;	// Shorthand for outputting ems
     }
 
     p {
-      font-size:$font-size * 1.5;
+      font-size:$font-size * 2;
     }
 
-    li{
-      .no-bullet{
-           list-style-type: none;
-      }
-    }
+    ul.no-bullet{
+        list-style-type: none;
+     }
+
 
     blockquote {
       font-size:2em;
@@ -126,12 +124,12 @@ $em: $font-size / 1em;	// Shorthand for outputting ems
       }
     }
 
-    ::-moz-selection{ background:#c00; color:#fff; }
-    ::selection { background:#c00; color:#fff; }
+    ::-moz-selection{ background:$light-blue; color:#fff; }
+    ::selection { background:$light-blue; color:#fff; }
 
     a {
       &, &:hover, &:focus, &:active, &:visited {
-        color:#c00;
+        color:$light-blue;
         text-decoration:none;
       }
 
@@ -166,7 +164,7 @@ $em: $font-size / 1em;	// Shorthand for outputting ems
     }
 
     &:hover, &:focus {
-      background:#c00;
+      background:$light-blue;
       text-decoration:none;
     }
   }

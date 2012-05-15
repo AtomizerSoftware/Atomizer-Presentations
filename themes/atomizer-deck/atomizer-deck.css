@@ -39,17 +39,17 @@
   .deck-container .slide h2 {
     color: #1589ff;
     border-bottom-color: #323232;
-    font-size: 60px; }
+    font-size: 100px; }
   .deck-container .slide h3 {
-    font-size: 45px;
+    font-size: 60px;
     color: #888; }
   .deck-container .slide pre {
     border-color: #ccc; }
   .deck-container .slide code {
     color: #888; }
   .deck-container .slide p {
-    font-size: 30px; }
-  .deck-container .slide li .no-bullet {
+    font-size: 40px; }
+  .deck-container .slide ul.no-bullet {
     list-style-type: none; }
   .deck-container .slide blockquote {
     font-size: 2em;
@@ -65,13 +65,13 @@
       font-weight: bold;
       color: #888; }
   .deck-container .slide ::-moz-selection {
-    background: #c00;
+    background: #0066ee;
     color: #fff; }
   .deck-container .slide ::selection {
-    background: #c00;
+    background: #0066ee;
     color: #fff; }
   .deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
-    color: #c00;
+    color: #0066ee;
     text-decoration: none; }
   .deck-container .slide a:hover, .deck-container .slide a:focus {
     text-decoration: underline; }
@@ -87,7 +87,7 @@
     .deck-container .deck-prev-link, .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-prev-link:active, .deck-container .deck-prev-link:visited, .deck-container .deck-next-link, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus, .deck-container .deck-next-link:active, .deck-container .deck-next-link:visited {
       color: #fff; }
     .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus {
-      background: #c00;
+      background: #0066ee;
       text-decoration: none; }
   .deck-container .deck-status {
     font-size: 0.6666em; }
