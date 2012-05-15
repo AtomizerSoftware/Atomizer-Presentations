@@ -37,14 +37,20 @@
     .deck-container .slide h1 .animatronic {
       font-family: "ScienceProjectRegular", Arial; }
   .deck-container .slide h2 {
-    color: #3bb9ff;
-    border-bottom-color: #323232; }
+    color: #1589ff;
+    border-bottom-color: #323232;
+    font-size: 60px; }
   .deck-container .slide h3 {
+    font-size: 45px;
     color: #888; }
   .deck-container .slide pre {
     border-color: #ccc; }
   .deck-container .slide code {
     color: #888; }
+  .deck-container .slide p {
+    font-size: 30px; }
+  .deck-container .slide li .no-bullet {
+    list-style-type: none; }
   .deck-container .slide blockquote {
     font-size: 2em;
     font-style: italic;

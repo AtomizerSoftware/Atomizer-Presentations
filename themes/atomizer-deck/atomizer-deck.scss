@@ -9,6 +9,9 @@ $black: #000;
 $blue: #00e;
 $purple: #551a8b;
 $light-blue:#06e;
+$royal-blue: #306EFF;
+$dodger-blue: #1589FF;
+$sky-blue:#1589FF;
 
 /*font info */
 
@@ -59,6 +62,10 @@ $em: $font-size / 1em;	// Shorthand for outputting ems
   .slide {
     //background:#fff;
 
+    canvas {
+
+    }
+
     h1 {
       color:#000;
       font-size: $font-size * 8;
@@ -72,11 +79,13 @@ $em: $font-size / 1em;	// Shorthand for outputting ems
     }
 
     h2 {
-      color:$cyan;
+      color:$sky-blue;
       border-bottom-color:$dark_grey;
+      font-size: $font-size * 3;
     }
 
     h3 {
+      font-size:$font-size * 2.25 ;
       color:#888;
     }
 
@@ -86,6 +95,16 @@ $em: $font-size / 1em;	// Shorthand for outputting ems
 
     code {
       color:#888;
+    }
+
+    p {
+      font-size:$font-size * 1.5;
+    }
+
+    li{
+      .no-bullet{
+           list-style-type: none;
+      }
     }
 
     blockquote {
