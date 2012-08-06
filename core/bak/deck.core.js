@@ -181,10 +181,7 @@ that use the API provided by core.
 					methods.prev();
 					e.preventDefault();
 				}
-			})
-			/* Stop propagation of key events within editable elements */
-			.undelegate('input, textarea, select, button, meter, progress, [contentEditable]', 'keydown', esp)
-			.delegate('input, textarea, select, button, meter, progress, [contentEditable]', 'keydown', esp);
+			});
 			
 			/* Bind touch events for swiping between slides on touch devices */
 			$container.unbind('touchstart.deck').bind('touchstart.deck', function(e) {
@@ -215,7 +212,10 @@ that use the API provided by core.
 					}
 				});
 			})
-			.scrollLeft(0).scrollTop(0);
+			.scrollLeft(0).scrollTop(0)
+			/* Stop propagation of key events within editable elements of slides */
+			.undelegate('input, textarea, select, button, meter, progress, [contentEditable]', 'keydown', esp)
+			.delegate('input, textarea, select, button, meter, progress, [contentEditable]', 'keydown', esp);
 			
 			/*
 			Kick iframe videos, which dont like to redraw w/ transforms.
